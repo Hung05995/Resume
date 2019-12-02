@@ -1,9 +1,28 @@
-body * {
+/*body * {
     border: 1px rgba(2, 110, 44, 0.89) solid;
-}
+}*/
 #back{
     background-color:#F5F4F0 ;
 }
 #padding{
     padding: 5px;
+}
+.Sof{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.name{
+    font-size: 30px;text-transform: uppercase;
+}
+.WebEng{
+    font-size: 13px;
+}
+.Mota{
+    font-size: 12px;
+}
+.avatar{
+    text-align: center;
+}
+.checked {
+    color: orange;
 }
