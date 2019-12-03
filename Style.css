@@ -1,6 +1,6 @@
-/*body * {
+body * {
     border: 1px rgba(2, 110, 44, 0.89) solid;
-}*/
+}
 #back{
     background-color:#F5F4F0 ;
 }
@@ -25,4 +25,8 @@
 }
 .checked {
     color: orange;
+}
+.icon{
+    color:black;
+    font-size: 13px;
 }
