@@ -1,6 +1,6 @@
-body * {
-    border: 1px rgba(2, 110, 44, 0.89) solid;
-}
+/*body * {
+    border: 1px red solid;
+}*/
 #back{
     background-color:#F5F4F0 ;
 }
@@ -22,11 +22,24 @@ body * {
 }
 .avatar{
     text-align: center;
+    background-color:orange ;
 }
 .checked {
     color: orange;
 }
 .icon{
-    color:black;
-    font-size: 13px;
+    color:whitesmoke;
+    font-size: 20px;
+}
+.icon :hover{
+    color: orange;
+}
+.info{
+    background-color:orange ;
+}
+.leftgroup,.rightgroup{
+    background-color: #555557;
+}
+.skill1,.skill2,.hobbies{
+    color:whitesmoke;
 }
