@@ -33,13 +33,28 @@
 }
 .icon :hover{
     color: orange;
+    text-decoration: none;
 }
 .info{
-    background-color:orange ;
+    background-color:#b68416 ;
 }
-.leftgroup,.rightgroup{
+.leftgroup{
     background-color: #555557;
+}
+.rightgroup{
+    background-color:gray;
 }
 .skill1,.skill2,.hobbies{
     color:whitesmoke;
 }
+.empty{
+    height: 20px;
+    color:transparent;
+}.dot {
+     height: 10px;
+     width: 10px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     border:2px red solid;
+ }
