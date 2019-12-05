@@ -1,6 +1,9 @@
 /*body * {
     border: 1px red solid;
 }*/
+body{
+    background-color: black;
+}
 #back{
     background-color:#F5F4F0 ;
 }
@@ -18,11 +21,12 @@
     font-size: 13px;
 }
 .Mota{
-    font-size: 12px;
+    font-size: 16px;
 }
 .avatar{
     text-align: center;
-    background-color:#555557 ;
+    background-color:#555557;
+    border-left: 10px #f6f4ec solid;
 }
 .checked {
     color: orange;
@@ -36,13 +40,17 @@
     text-decoration: none;
 }
 .info{
-    background-color:#b68416 ;
+    background-color:orange;
+    border-left: #f6f4ec 15px solid;
+    border-right: #f6f4ec 15px solid;
 }
 .leftgroup{
     background-color: #555557;
+    border-left: 10px #f6f4ec solid;
 }
 .rightgroup{
-    background-color:gray;
+    background-color: #f6f4ec;
+    border-bottom: orange 15px solid;
 }
 .skill1,.skill2,.hobbies{
     color:whitesmoke;
