@@ -40,7 +40,7 @@ body{
     text-decoration: none;
 }
 .info{
-    background-color:orange;
+    background-color:#212529;
     border-left: #f6f4ec 15px solid;
     border-right: #f6f4ec 15px solid;
 }
@@ -105,5 +105,17 @@ li.timeline-item::before {
 }
 .text-gray {
     color: #999;
+}
+@media screen and (max-width: 600px) {
+    a.example {
+        display: none;
+    }
+    div.leftgroup{
+        border: #555557;
+    }
+    div.avatar{
+        border: #555557;
+    }
+
 }
 
